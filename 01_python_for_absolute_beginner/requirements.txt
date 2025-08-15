@@ -1,0 +1,2 @@
+pygame==2.6.1
+SuperWires==0.9.6
