@@ -3,7 +3,12 @@ import matplotlib.pyplot as plt
 from models.polynomial_regression import predict_polynomial
 
 
-def plot_model_poly(weights, degree, features, labels, figsize=(6, 6), ax=None):
+def plot_model_poly(
+        weights,
+        degree,
+        features,
+        labels,
+        ax=None):
     """
     Строит график полиномиальной модели и точек выборки
 

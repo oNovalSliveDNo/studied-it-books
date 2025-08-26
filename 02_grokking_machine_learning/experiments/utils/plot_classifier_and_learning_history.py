@@ -83,7 +83,7 @@ def plot_classifier(
         weights_history=None,
         bias_history=None,
         point_size: int = 80,
-        colors=("cyan", "red"),
+        colors=("cyan", "magenta"),
         markers=("s", "^"),
         class_names=("Class 0", "Class 1"),
         xlabel=None,

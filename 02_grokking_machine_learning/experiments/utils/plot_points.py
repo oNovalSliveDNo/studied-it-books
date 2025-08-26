@@ -7,7 +7,7 @@ def plot_points(
         labels,
         *,
         point_size: int = 80,
-        colors=("cyan", "red"),
+        colors=("cyan", "magenta"),
         markers=("s", "^"),
         class_names=("Class 0", "Class 1"),
         xlabel=None,
@@ -94,6 +94,8 @@ def plot_points(
 
     if legend and X.ndim > 1:
         ax.legend()
+
+    ax.grid(True, linestyle='--', alpha=0.7)
 
     # Настраиваем границы графика
     ax.set_xlim(x_min, x_max)  # Границы по X с отступами
