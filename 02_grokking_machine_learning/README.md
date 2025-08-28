@@ -175,7 +175,6 @@ jupyter lab
 * [Scikit-learn](https://scikit-learn.org/stable/)
 * [TensorFlow](https://www.tensorflow.org/)
 * [Keras](https://keras.io/)
-* [Видеокурс Luis Serrano](https://www.youtube.com/c/serranoluis)
 
 ---
 
